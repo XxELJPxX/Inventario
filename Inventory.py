@@ -1,12 +1,3 @@
-"""
-============================================================
-SISTEMA DE INVENTARIO COMPLETO - TODO EN UN ARCHIVO
-============================================================
-Guarda este archivo como: inventario.py
-Ejecuta: python inventario.py
-============================================================
-"""
-
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext
 import sqlite3
@@ -1590,4 +1581,5 @@ Mínimo:    {producto.stock_minimo}
 if __name__ == "__main__":
     root = tk.Tk()
     app = App(root)
+
     root.mainloop()
